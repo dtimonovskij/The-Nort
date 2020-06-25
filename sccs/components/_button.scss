@@ -1,0 +1,39 @@
+$bg:#FF0032;
+$color:#fff;
+.button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: inherit;
+    padding: 16px 86px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  .button-full {
+    width: 100%;
+  }
+  .button-primary {
+    background-color: $bg;
+box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+ color:$color
+  }
+  .button-secondary{
+    background-color: $bg;
+    color: $color;
+  }

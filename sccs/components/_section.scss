@@ -1,0 +1,88 @@
+$color: #061E33;
+
+.section {
+    padding: 90px 0;
+    position: relative;
+  }
+  .section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+  }
+  .section-background > img {
+    height: 100%;
+  }
+  .section-form{
+    margin: 90px 150px 37px;
+    color:$color;
+    background-color: #FFFFFF;
+  }
+  .section-title{
+    font-size: 52px;
+    line-height: 64px;
+    color: $color;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .section-tours{
+    background-color: #F2F7FF;
+  }
+  @media(min-width:320px){
+    .section-form{
+      margin: 30px 30px;
+    }
+    .section-title{
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 38px ;
+    }
+    .section {
+      padding: 50px 0;
+      
+    }
+  }
+  @media(min-width:480px){
+    .section-form{
+      margin: 50px 50px 37px 50px;
+      
+    }
+    .section-title{
+      margin-bottom: 30px;
+      font-size: 35px;
+      line-height: 43px ;
+    }
+  }
+  @media(min-width:640px){
+    .section-form{
+      margin: 70px 70px 37px 70px;
+      
+    }
+    .section {
+      padding: 70px 0;
+      
+    }
+  }
+  @media(min-width:960px){
+    .section-form{
+      margin: 90px 100px 37px 100px;
+      
+    }
+    .section-title{
+      margin-bottom: 50px;
+      font-size: 52px;
+      line-height: 64px ;
+    }
+  }
+  @media(min-width:1140px){
+    .section-form{
+      margin: 90px 150px 37px 150px;
+      
+    }
+    .section {
+      padding: 90px 0 200px 0;
+      
+    }
+  }

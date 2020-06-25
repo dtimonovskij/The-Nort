@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .row > .column {
+    padding: 10px;
+  }
+  .row-phone{
+margin-bottom: 50px;
+  }
