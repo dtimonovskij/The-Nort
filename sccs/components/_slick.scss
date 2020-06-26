@@ -1,6 +1,9 @@
 .slider{
     margin: 0 65px;
 }
-.slick-arrow{
 
+.slick-slide img {
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }

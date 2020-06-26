@@ -1,5 +1,8 @@
-.card{
-    max-width: 258px;
+.card {
+    max-width: 259px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
 }
 
 .card-title{
@@ -18,4 +21,7 @@ color: #464649;
 line-height: 15px;
 
 color: #888EA0;
+}
+.card-image > img{
+    min-height: 208px;
 }
