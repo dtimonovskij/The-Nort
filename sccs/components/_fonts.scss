@@ -1,6 +1,16 @@
-@import "variables";
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../fonts" !default;
 
-@font-face {
+$icon-star: "\e906";
+$icon-inspect: "\e900";
+$icon-facebook: "\e901";
+$icon-twitter: "\e902";
+$icon-insta: "\e903";
+$icon-gps: "\e904";
+$icon-mobile: "\e905";
+
+
+ @font-face {
   font-family: '#{$icomoon-font-family}';
   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9qmlte');
   src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9qmlte#iefix') format('embedded-opentype'),
@@ -66,4 +76,4 @@
     content: $icon-mobile; 
   }
 }
-
+// *
