@@ -1,16 +1,14 @@
 .slider{
-    margin: 0 65px;
+    margin: 0 65;
+    position: relative; 
 }
-
-.slick-slide img {
-    display: block;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+.slider-item{
+    margin: 0 18px;
 }
-.slider{
-    position: relative;
+.slick-dotted.slick-slider {
+    margin-bottom: 50px;
 }
-.slider .slick-arrow{
+.slider.slick-arrow{
     position: absolute;
     font-size: 0;
     z-index: 10;
@@ -22,4 +20,24 @@
 }
 .slider.slick-arrow.slick-next{
     background-image: url(/images/right.svg);
+}
+@media(min-width:320px){
+    .slider{
+        margin: 0 10px;
+    }
+}
+@media(min-width:480px){
+    .slider{
+        margin: 0 30px;
+    }
+}
+@media(min-width:640px){
+    .slider{
+        margin: 0 50px;
+    }
+}
+@media(min-width:960px){
+    .slider{
+        margin: 0 65px;
+    }
 }

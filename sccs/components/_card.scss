@@ -1,49 +1,228 @@
-.card {
-    max-width: 259px;
-    background-color: white;
-    border-radius: 34px;
-    margin: 0 auto;
-}
-
-.card-title{
-    font-size: 20px;
-line-height: 24px;
-color: #373F55;
-}
-.card-desc{
-    font-size: 16px;
-line-height: 20px;
-
-color: #464649;
-}
-.card-end{
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.duration{
-    font-size: 13px;
-line-height: 15px;
-color: #888EA0;
-margin: 0;
-}
-.card-image > img{
-    max-height: 208px;
-}
-.block{
-    padding: 17px 17px 30px;
-}
-.price{
-font-size: 30px;
-line-height: 36px;
-color: #373F55;
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 34px;
+  overflow: hidden;
 }
 .daily-card{
-    box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
-    margin-bottom: 50px;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.card-image{
+  margin: 0px;
+}
+.card-image img{
+  height: 173px;
+}
+.card-body{
+  flex-grow: 1;
+  margin: 23px 18px 8px;
+}
+.card-title{
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 13px;
+  color: #373F55;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.card-desc{
+  font-size: 16px;
+  line-height: 20px;
+  color: #464649;
+  margin: 0;
+}
+.star{
+  display: flex;
+  align-items: center;
+}
+.star-desc{
+  font-size: 13px;
+  line-height: 15px;
+  color: #888EA0;
+}
+.list-icon{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 10px;
+}
+.icon-rating{
+ margin-right: 1px;
+ font-size: 24px;
+ color: #F6A326;
+border-radius: 0.4px;
+}
+.card-icon .icon-rating:hover{
+  color: red;
+  
+}
+.card-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 18px 28px;
+}
+.duration{
+  font-size: 13px;
+  line-height: 15px;
+  color: #888EA0;
+  margin: 0px;
+}
+.price{
+  font-size: 30px;
+  line-height: 36px;
+  color: #373F55;
+}
+.list-icon.list-slide{
+  margin-right: 0;
+}
+.card-icon.icon-slide{
+  font-size: 16px;
+}
+.card-slide{
+  background-color: #FFFFFF;
+  margin: 0;
+  position: relative;
+  border-radius: 34px;
+  padding: 22px 24px;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.card-info{
+  display:flex;
+  
+}
+
+.info{
+  margin-left: 20px;
+}
+.star-slide{
+  position: absolute;
+  z-index: 2;
+  right: 22px;
+  top: 28px;
+}
+.card-top{
+  margin-bottom: 20px;
+}
+.name{
+  margin: 0;
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+}
+.city{
+  font-size: 13px;
+line-height: 18px;
+margin: 0;
+margin-top: 1px;
+color: #888EA0;
 
 }
-.daily > img{
-    border-top-left-radius: 34px;
-    border-top-right-radius: 34px;
+.commit{
+  font-size: 14px;
+line-height: 19px;
+color: #000000;
+margin-bottom: 24px;
+}
+.card-end{
+ display: flex;
+ justify-content: flex-end;
+}
+.card-link{
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #0F2D47;
+}
+@media(min-width:320px){
+  .icon-rating{
+    font-size:16px;
+   }
+  .card-body{
+    margin: 20px 16px 8px;
+  }
+  .card-title{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card-desc{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .star-desc{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .list-icon{
+    margin-right: 7px;
+  }
+  .card-icon{
+   margin-right: 1px;
+   font-size: 16px;
+  }
+  .duration{
+    font-size: 13px;
+    line-height: 15px;
+    
+  }
+  .price{
+    font-size: 23px;
+    line-height: 29px;
+    
+  }
+  .star-slide{
+    position: static;
+    display: flex;
+  }
+}
+@media(min-width:480px){
+  .star-slide{
+    position: absolute;
+    z-index: 2;
+    right: 22px;
+    top: 28px;
+  }
+}
+@media(min-width:640px){
+  .card-body{
+    flex-grow: 1;
+    margin: 23px 18px 8px;
+  }
+  .card-title{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 13px;
+    
+  }
+  .card-desc{
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+  
+  .star-desc{
+    font-size: 13px;
+    line-height: 15px;
+    
+  }
+  .list-icon{
+    margin-right: 10px;
+  }
+  .card-icon{
+   
+   font-size: 24px;
+
+  }
+  .duration{
+    font-size: 13px;
+    line-height: 15px;
+    
+  }
+  .price{
+    font-size: 30px;
+    line-height: 36px;
+    
+  }
 }

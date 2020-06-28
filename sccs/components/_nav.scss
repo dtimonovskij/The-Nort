@@ -79,3 +79,25 @@ line-height: 19px;
 color: #000000;
 margin-left: 8px;
 }
+@media(min-width:320px){
+  .navbar-start{
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-middle {
+    justify-content: center;
+   margin-top: 8px;
+  }
+}
+@media(min-width:480px){
+  .navbar-start{
+    justify-content: start;
+  }
+  
+  .navbar-middle {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-top: 0px;
+  }
+}
