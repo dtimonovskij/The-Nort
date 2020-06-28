@@ -10,3 +10,20 @@
   .row-phone{
 margin-bottom: 50px;
   }
+  .row-daily{
+    margin: -18px;
+  }
+  .row-daily > .column {
+    padding: 18px;
+  }
+  .row-who{
+    margin: -27px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .row-who > .column {
+    padding: 27px;
+    
+   
+  }

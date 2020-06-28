@@ -7,3 +7,19 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
+.slider{
+    position: relative;
+}
+.slider .slick-arrow{
+    position: absolute;
+    font-size: 0;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+}
+.slider.slick-arrow.slick-prev{
+    background-image: url(/images/left.svg);
+}
+.slider.slick-arrow.slick-next{
+    background-image: url(/images/right.svg);
+}

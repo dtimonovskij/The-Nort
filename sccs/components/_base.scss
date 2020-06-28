@@ -18,10 +18,17 @@ html {
   padding: 0 16px;
   margin: 0 auto;
 }
+a{
+  text-decoration: none;
+}
 a:hover {
   text-decoration: underline;
 }
-
+.logo{
+  color: #0F2D47;
+  font-size: 28px;
+line-height: 35px;
+}
 img {
   width: 100%;
   height: auto;
