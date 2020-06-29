@@ -22,7 +22,8 @@ $('.slider').slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          dots: false
+          dots: false,
+          arrows: false
         }
       },
       {
@@ -30,12 +31,10 @@ $('.slider').slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false
+          dots: false,
+          arrows: false
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
   $('.center').slick({
@@ -55,10 +54,20 @@ $('.slider').slick({
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false
+          
         }
       }
     ]

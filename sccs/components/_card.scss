@@ -133,6 +133,12 @@ margin-bottom: 24px;
   }
 }
 @media(min-width:480px){
+  .raiting-reviews{
+    font-size: 16px;
+    position: absolute;
+    top: 28px;
+    right: 22px;
+  }
 }
 @media(min-width:640px){
   .card-body{
@@ -143,7 +149,6 @@ margin-bottom: 24px;
     font-size: 20px;
     line-height: 24px;
     margin-top: 13px;
-    
   }
   .card-desc{
     font-size: 16px;
@@ -167,15 +172,20 @@ margin-bottom: 24px;
     
   }
 }
+.card-slide{
+  position: relative;
+}
 .star{
 display: flex;
 align-items: center;
-justify-content: space-between;
+margin-bottom: 13px;
+
 }
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
   text-align: left;
+  margin-right: 10px;
   
 }
 .rating > span {
@@ -193,5 +203,10 @@ justify-content: space-between;
    content: "\2605";
    position: absolute;
    left: 0; 
-   color: gold;
+   color: #F6A326;
+   border-radius: 0.4px;
+}
+.raiting-reviews > span{
+  font-size: 16px;
+  color: #F6A326;
 }

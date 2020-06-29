@@ -34,9 +34,38 @@
     
     margin-left: -40px;
 }
+.section-reviews .slick-track {
+    padding: 45px 0;
+}
+.section-reviews .slick-next{
+    position: absolute;
+    margin-top: 130px;
+    margin-right: -64px;
+    bottom: 37px;
+    right: 50%;
+}
+.section-reviews .slick-prev{
+    position: absolute;
+    margin-top: 153px;
+    margin-left: -64px;
+    bottom: 25px;
+    left: 50%;
+}
 @media(min-width:320px){
     .slider{
         margin: 0 10px;
+    }
+   
+    .slick-next{
+        display: none;
+        right: -5px;
+        transform: rotate(180deg);
+        margin-top: -15px;
+        
+    }
+    .slick-prev{
+        display: none;
+        margin-left: -17px;
     }
 }
 @media(min-width:480px){
@@ -53,4 +82,12 @@
     .slider{
         margin: 0 65px;
     }
+    .slick-next{
+        right: -5px;
+        
+    }
+    .slick-prev{
+        margin-left: -17px;
+    }
+    
 }
