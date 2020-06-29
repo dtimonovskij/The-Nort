@@ -32,32 +32,7 @@
   color: #464649;
   margin: 0;
 }
-.star{
-  display: flex;
-  align-items: center;
-}
-.star-desc{
-  font-size: 13px;
-  line-height: 15px;
-  color: #888EA0;
-}
-.list-icon{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-right: 10px;
-}
-.icon-rating{
- margin-right: 1px;
- font-size: 24px;
- color: #F6A326;
-border-radius: 0.4px;
-}
-.card-icon .icon-rating:hover{
-  color: red;
-  
-}
+
 .card-footer{
   display: flex;
   align-items: center;
@@ -75,12 +50,7 @@ border-radius: 0.4px;
   line-height: 36px;
   color: #373F55;
 }
-.list-icon.list-slide{
-  margin-right: 0;
-}
-.card-icon.icon-slide{
-  font-size: 16px;
-}
+
 .card-slide{
   background-color: #FFFFFF;
   margin: 0;
@@ -97,12 +67,7 @@ border-radius: 0.4px;
 .info{
   margin-left: 20px;
 }
-.star-slide{
-  position: absolute;
-  z-index: 2;
-  right: 22px;
-  top: 28px;
-}
+
 .card-top{
   margin-bottom: 20px;
 }
@@ -137,9 +102,6 @@ margin-bottom: 24px;
   color: #0F2D47;
 }
 @media(min-width:320px){
-  .icon-rating{
-    font-size:16px;
-   }
   .card-body{
     margin: 20px 16px 8px;
   }
@@ -154,13 +116,6 @@ margin-bottom: 24px;
   .star-desc{
     font-size: 13px;
     line-height: 15px;
-  }
-  .list-icon{
-    margin-right: 7px;
-  }
-  .card-icon{
-   margin-right: 1px;
-   font-size: 16px;
   }
   .duration{
     font-size: 13px;
@@ -178,12 +133,6 @@ margin-bottom: 24px;
   }
 }
 @media(min-width:480px){
-  .star-slide{
-    position: absolute;
-    z-index: 2;
-    right: 22px;
-    top: 28px;
-  }
 }
 @media(min-width:640px){
   .card-body{
@@ -207,14 +156,6 @@ margin-bottom: 24px;
     line-height: 15px;
     
   }
-  .list-icon{
-    margin-right: 10px;
-  }
-  .card-icon{
-   
-   font-size: 24px;
-
-  }
   .duration{
     font-size: 13px;
     line-height: 15px;
@@ -225,4 +166,32 @@ margin-bottom: 24px;
     line-height: 36px;
     
   }
+}
+.star{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+  
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 0.8em;
+  font-size: 24px;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
 }

@@ -5,21 +5,34 @@
 .slider-item{
     margin: 0 18px;
 }
+.card-slide{
+    margin: 0 18px;
+}
 .slick-dotted.slick-slider {
     margin-bottom: 50px;
 }
-.slider.slick-arrow{
-    position: absolute;
-    font-size: 0;
-    z-index: 10;
-    width: 40px;
-    height: 40px;
+
+.slick-prev:before, .slick-next:before {
+    color: transparent
 }
-.slider.slick-arrow.slick-prev{
-    background-image: url(/images/left.svg);
+.slick-prev,
+.slick-next{
+    background: url(https://dtimonovskij.github.io/The-Nort/images/left.svg);
+    width: 46px;
+    height: 46px;
+    background-size: 138px 138px;
+    background-position: 96px 96px;
+    border-radius: 100px;
 }
-.slider.slick-arrow.slick-next{
-    background-image: url(/images/right.svg);
+.slick-next{
+    right: -30px;
+    transform: rotate(180deg);
+    margin-top: -15px;
+    margin-right: -40px;
+}
+.slick-prev{
+    
+    margin-left: -40px;
 }
 @media(min-width:320px){
     .slider{
