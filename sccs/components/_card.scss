@@ -4,6 +4,7 @@
   background-color: #FFFFFF;
   border-radius: 34px;
   overflow: hidden;
+  height: 100%;
 }
 .daily-card{
   box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
@@ -101,6 +102,10 @@ margin-bottom: 24px;
   text-decoration-line: underline;
   color: #0F2D47;
 }
+.star-desc:hover{
+  color: #2a5ae0;
+  
+}
 @media(min-width:320px){
   .card-body{
     margin: 20px 16px 8px;
@@ -142,7 +147,6 @@ margin-bottom: 24px;
 }
 @media(min-width:640px){
   .card-body{
-    flex-grow: 1;
     margin: 23px 18px 8px;
   }
   .card-title{
