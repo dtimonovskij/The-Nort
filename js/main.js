@@ -9,6 +9,15 @@ $('.slider').slick({
     slidesToScroll: 4,
     responsive: [
       {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
@@ -57,7 +66,8 @@ $('.slider').slick({
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 1
+          slidesToShow: 1,
+          arrows: false,
         }
       },
       {

@@ -3,3 +3,24 @@
     margin:  0 auto;
    max-width: 761px;
 }
+.tell{
+    color: #0B1014;
+}
+.icon-top:hover,
+.link-logo:hover{
+    color: #d64949;
+    text-decoration: none;
+}
+.logo:hover{
+    
+    color: #d64949;
+}
+.nav-item-tell{
+    display: flex;
+}
+.tell-header{
+    margin: 0;
+}
+.nav-item-secondary:hover{
+    text-decoration: underline;
+}

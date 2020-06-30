@@ -6,12 +6,26 @@
     font-size: 14px;
     line-height: 16px;
     color: #888EA0;
+    display: block;
     
   }
-  .form-subscribe{
-    display: flex;
+  .label-subscribe{
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    display: block;
+    margin-bottom: 12px;
     
   }
+  .input-subscribe{
+    height: 52px;
+    background: #F2F7FF;
+    border-radius: 133px;
+    max-width: 368px;
+    padding: 16px 24px;
+    margin-right: 17px;
+  }
+    
   .input,
   .select,
   .textarea {
@@ -54,8 +68,23 @@
     color: #999999;
     border-color: #999999;
   }
-  .input-footer{
-  max-width: 591px;
-  display: in;
+@media(min-width:320px){
+  .input-subscribe{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
   }
+}
+@media(min-width:640px){
+    .input-subscribe{
+      display: inline-block;
+      height: 52px;
+      background: #F2F7FF;
+      border-radius: 133px;
+      width: 368px;
+      padding: 16px 24px;
+      margin-right: 17px;
+      margin-bottom: 0px;
+    }
   
+}

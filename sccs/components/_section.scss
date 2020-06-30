@@ -73,6 +73,15 @@ $color: #061E33;
     background-color: #F2F7FF;
     
   }
+  .section-overlay-footer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background: rgba(6, 30, 51, 0.45);
+  }
   @media(min-width:320px){
     .section-form{
       margin: 30px 30px;
@@ -139,12 +148,12 @@ $color: #061E33;
       padding-bottom: 550px;
       background-image: url(https://dtimonovskij.github.io/The-Nort/images/section-tours.jpg);
   }
-  .section-reviews{
+  .section.section-reviews{
     padding-bottom: 150px;
     
   }
 
-  }
+}
   @media(min-width:1140px){
     .section-form{
       margin: 90px 150px 37px 150px;
@@ -161,4 +170,5 @@ $color: #061E33;
     .section-foreground-daily{
       padding-bottom: 550px;
     }
+    
   }
