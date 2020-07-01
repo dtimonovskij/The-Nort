@@ -17,6 +17,9 @@ body{
   height: 100%;
   overflow-x: hidden;
 }
+.wrapper{
+overflow: hidden;
+}
 .main{
   flex-grow: 1;
 }

@@ -102,6 +102,12 @@ margin-bottom: 24px;
   text-decoration-line: underline;
   color: #0F2D47;
 }
+.star-desc{
+  font-size: 13px;
+  line-height: 15px;
+  color: #888EA0;
+}
+
 .star-desc:hover{
   color: #2a5ae0;
   
@@ -118,10 +124,7 @@ margin-bottom: 24px;
     font-size: 14px;
     line-height: 18px;
   }
-  .star-desc{
-    font-size: 13px;
-    line-height: 15px;
-  }
+  
   .duration{
     font-size: 13px;
     line-height: 15px;
@@ -160,11 +163,7 @@ margin-bottom: 24px;
     
   }
   
-  .star-desc{
-    font-size: 13px;
-    line-height: 15px;
-    
-  }
+  
   .duration{
     font-size: 13px;
     line-height: 15px;
