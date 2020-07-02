@@ -95,6 +95,10 @@ $color: #061E33;
       padding: 50px 0;
       
     }
+    .section.section-who {
+      padding-bottom: 30px;
+      
+    }
     .section-background-daily{
       display: none;
     }
@@ -117,7 +121,10 @@ $color: #061E33;
       font-size: 35px;
       line-height: 43px ;
     }
-   
+    .section.section-who {
+      padding-bottom: 50px;
+      
+    }
   }
   @media(min-width:640px){
     .section-form{
@@ -128,7 +135,10 @@ $color: #061E33;
       padding: 70px 0;
       
     }
-    
+    .section.section-who {
+      padding-bottom: 70px;
+      
+    }
   }
   @media(min-width:960px){
     .section-form{
@@ -164,11 +174,14 @@ $color: #061E33;
       
     }
     .section-who {
-      padding: 90px 0 200px 0;
+      padding: 0px 0 200px 0;
       
     }
     .section-foreground-daily{
       padding-bottom: 550px;
     }
-    
+    .section.section-who {
+      padding-bottom: 90px;
+      
+    }
   }
